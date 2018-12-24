@@ -1,6 +1,6 @@
 ---
 title: "xaringan"
-subtitle: "Metropolis theme <html><div style='float:left'></div><hr color='#EB811B' size=1px width=1100px></html>"
+subtitle: "Metropolis theme <html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html>"
 author: "Your Name"
 date: "2099/12/12"
 output: 
@@ -9,7 +9,7 @@ output:
     nature: 
       beforeInit: "macros.js"
       highlightStyle: github
-      ratio: 16:9
+      ratio: 4:3
       highlightLines: true
       countIncrementalSlides: false
       slideNumberFormat: |
