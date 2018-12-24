@@ -39,7 +39,7 @@ options(htmltools.dir.version = FALSE)
 
 .remark-slide-number .progress-bar {
   height: 100%;
-  background-color: orange;
+  background-color: #EB811B;
 }
 </style>
 
@@ -187,6 +187,7 @@ a <- 1 + 2
 
 * More stuff
 * Even _more_ stuff
+* **Emphasis**
 ]
 --
 
@@ -195,6 +196,7 @@ a <- 1 + 2
 
 * Yeah
 * Right
+* [Web link](google.com)
 ]
 ---
 
@@ -203,10 +205,19 @@ a <- 1 + 2
 .center[
 ```{r}
 fit = lm(dist ~ 1 + speed, data = cars)
-{{plot(cars, pch = 19, col = "darkgrey", las = 1)}}
+plot(cars, pch = 19, col = "darkgrey", las = 1)
 abline(fit, lwd = 2)
 ```
 ]
+---
+
+# R code
+
+```{r, highlight.output=c(3,9:12)}
+fit = lm(dist ~ 1 + speed, data = cars)
+summary(fit)
+```
+
 ---
 
 background-image: url(sp.jpg)
