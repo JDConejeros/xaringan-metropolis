@@ -24,6 +24,7 @@ options(htmltools.dir.version = FALSE)
 ```
 
 <style>
+
 .remark-slide-number {
   position: inherit;
 }
@@ -31,7 +32,7 @@ options(htmltools.dir.version = FALSE)
 .remark-slide-number .progress-bar-container {
   position: absolute;
   bottom: 0;
-  height: 4px;
+  height: 6px;
   display: block;
   left: 0;
   right: 0;
@@ -40,6 +41,10 @@ options(htmltools.dir.version = FALSE)
 .remark-slide-number .progress-bar {
   height: 100%;
   background-color: #EB811B;
+}
+
+.orange {
+  color: #EB811B;
 }
 </style>
 
@@ -114,6 +119,10 @@ xaringan is so powerful!
 ## Inline code highlighting
 
 I've set the look of inline code highlighting similar to the one used at `Github` with a grey background. 
+
+## Preset colour
+
+There is also a `.orange[]` preset for .orange[orange text]. It matches the colours of the theme.
 
 ---
 
