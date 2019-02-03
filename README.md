@@ -1,6 +1,6 @@
 # xaringan-metropolis
 
-This is a slightly modified version of the [metropolis theme](https://github.com/pat-s/xaringan-metropolis) for [xaringan](https://github.com/yihui/xaringan). I have added only minor tweaks to the original theme, such as a preconfigured option to insert orange text, a progress bar (which is also orange), and small changes in the formatting.
+This is a slightly modified version of the [metropolis theme](https://github.com/pat-s/xaringan-metropolis) for [xaringan](https://github.com/yihui/xaringan). I have added only minor tweaks to the original theme, such as a preconfigured option to insert orange text, a progress bar (which is also orange), larger MathJax fonts, and small changes in the formatting.
 
 The there is available for download at <https://github.com/danilofreire/xaringan-metropolis>. You can see how it looks like [here](https://danilofreire.github.io/xaringan-metropolis/xaringan-metropolis.html). 
 
