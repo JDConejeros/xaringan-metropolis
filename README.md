@@ -1,6 +1,6 @@
 # xaringan-metropolis
 
-This is a slightly modified version of the [metropolis theme](https://github.com/pat-s/xaringan-metropolis) for [xaringan](https://github.com/yihui/xaringan). I have added only minor tweaks to the original theme, such as a preconfigured option to insert orange text, a progress bar (which is also orange), larger MathJax fonts, small changes in the formatting, and [Garrick Aden-Buie's](https://github.com/gadenbuie/xaringan-logo) [`insert-logo.html`](https://github.com/danilofreire/xaringan-metropolis/blob/master/insert-logo.html) CSS snippet which allows you to add a logo to your presentation. Just delete the line otherwise.
+This is a slightly modified version of the [metropolis theme](https://github.com/pat-s/xaringan-metropolis) for [xaringan](https://github.com/yihui/xaringan). I have added only minor tweaks to the original theme, such as a preconfigured option to insert orange text, a progress bar (which is also orange), larger MathJax fonts, and small changes in text formatting.
 
 The there is available for download at <https://github.com/danilofreire/xaringan-metropolis>. You can see how it looks like [here](https://danilofreire.github.io/xaringan-metropolis/xaringan-metropolis.html). 
 
