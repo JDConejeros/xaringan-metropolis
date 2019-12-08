@@ -1,14 +1,12 @@
 ---
 title: "xaringan"
-subtitle: "Metropolis theme <html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html>"
+subtitle: "Metropolis theme"
 author: "Your Name"
 date: "2099/12/12"
 output: 
   xaringan::moon_reader:
     css: [default, metropolis, metropolis-fonts]
     mathjax: "https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_HTMLorMML"
-    includes:
-      after_body: insert-logo.html 
     nature: 
       beforeInit: "macros.js"
       highlightStyle: github
@@ -67,7 +65,7 @@ class: inverse, center, middle
 
 # Get Started
 
-<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
 
 ---
 
@@ -78,7 +76,7 @@ If you want the orange break lines in the title slide and for the slides with cl
 ```html
 <html>
   <div style='float:left'></div>
-  <hr color='#EB811B' size=1px width=720px>
+  <hr color='#EB811B' size=1px width=800px>
 </html> 
 ```
 
@@ -242,4 +240,4 @@ class: inverse, center, middle
 
 # And That's All, Folks!
 
-<html><div style='float:left'></div><hr color='#EB811B' size=1px width=720px></html> 
+<html><div style='float:left'></div><hr color='#EB811B' size=1px width=800px></html> 
