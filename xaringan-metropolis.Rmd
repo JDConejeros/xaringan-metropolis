@@ -124,7 +124,7 @@ I've set the look of inline code highlighting similar to the one used at `Github
 
 ## Preset colour
 
-There is also a `.orange[]` preset for .orange[orange text]. It matches the colours of the theme.
+There is also an `.orange[]` preset for .orange[orange text]. It matches the colours of the theme.
 
 ---
 
@@ -175,12 +175,12 @@ $$Y = \beta_{0} + \beta_{1}X + \epsilon$$
 * `R` code with highlighting:
 
 ```{r}
-a <- 1 + 2
+a <- 1 + 1
 {{print(a)}}
 ```
 --
 
-.footnote[.red.bold[*] Important footnote]
+.footnote[* Important footnote]
 
 ---
 
@@ -215,7 +215,7 @@ a <- 1 + 2
 
 .center[
 ```{r}
-fit = lm(dist ~ 1 + speed, data = cars)
+fit <- lm(dist ~ speed, data = cars)
 plot(cars, pch = 19, col = "darkgrey", las = 1)
 abline(fit, lwd = 2)
 ```
@@ -225,7 +225,7 @@ abline(fit, lwd = 2)
 # R code
 
 ```{r, highlight.output=c(3,9:12)}
-fit = lm(dist ~ 1 + speed, data = cars)
+fit <- lm(dist ~ speed, data = cars)
 summary(fit)
 ```
 
